@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu&display=swap');
+
+/* *******************************
+Google fonts:To embed a font
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+body{
+    background-color:rgb(187, 187, 187);
+    font-family: 'Roboto', sans-serif;
+}
+.form{
+height: 300px;
+width: 400px;
+text-align: center;
+}
+fieldset{
+    line-height: 2.5;
+    position: relative;
+    margin: 0 auto;
+    
+}

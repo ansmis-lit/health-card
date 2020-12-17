@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rough-Edit</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+    <form action="" class="form">
+        <fieldset onchange="priceTag()">
+            <legend>Cart Summary</legend>
+                <label for="list">Select item:</label>
+                    <select name="item-list" id="item-list">
+                        <option value="demo-item" selected disabled>Choose from following items</option>
+                        <option value="item-demo-1">Books</option>
+                        <option value="item-demo-2">Head Phones</option>
+                        <option value="item-demo-3">Mobiles</option>
+                        <option value="item-demo-4">Laptops</option>
+                        <option value="item-demo-5">Wallets</option>
+                        <option value="item-demo-6">MotherBoard</option>
+                        <option value="item-demo-7">OfficeAccessories</option>
+                        <option value="item-demo-8">Cables & Wires</option>
+                        <option value="item-demo-9">Flash Drives</option>
+                    </select>
+                    <br>
+                <label for="itemprice">Item Price:</label>
+                <input type="text" name="itemNum" id="itemNum" readonly>    
 
+
+
+
+        </fieldset>
+    </form>
+    <script src="cart.js"></script>
+</body>
+</html>
